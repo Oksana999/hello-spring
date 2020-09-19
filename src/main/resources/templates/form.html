@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action='hello' method='post'>
+    <input type='text' name='name'/><br>
+    <select name='language'>
+        <option value='Russian'>Russian</option>
+        <option value='English'>English</option>
+        <option value='French' selected>French</option>
+    </select>
+    <input type='submit' value='Greet me!'/>
+</form>
+<!--<h2 th:text = "${title}">Default Title</h2>-->
+<!--<div>-->
+<!--    <p th:text = "${bookQuote}">Don't Panic</p>-->
+<!--    <a href = "someURL" th:text = "${linkText}">LaunchCode</a>-->
+<!--</div>-->
+</body>
+</html>
